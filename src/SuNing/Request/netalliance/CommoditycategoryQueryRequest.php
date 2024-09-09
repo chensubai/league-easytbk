@@ -1,8 +1,8 @@
 <?php
-namespace NiuGengYun\EasyTBK\SuNing\Request\Netalliance;
+namespace LeagueAndShop\EasyTBK\SuNing\Request\Netalliance;
 
-use NiuGengYun\EasyTBK\SuNing\SuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use LeagueAndShop\EasyTBK\SuNing\SuningRequest;
+use LeagueAndShop\EasyTBK\SuNing\RequestCheckUtil;
 
 /**
  * 苏宁开放平台接口 -
@@ -47,37 +47,4 @@ class CommoditycategoryQueryRequest  extends SuningRequest{
 	}
 
 }
-
-class CommoditycategoryList {
-
-	private $apiParams = array();
-
-	private $grade;
-
-	private $parentId;
-
-	public function getGrade() {
-		return $this->grade;
-	}
-
-	public function setGrade($grade) {
-		$this->grade = $grade;
-		$this->apiParams["grade"] = $grade;
-	}
-
-	public function getParentId() {
-		return $this->parentId;
-	}
-
-	public function setParentId($parentId) {
-		$this->parentId = $parentId;
-		$this->apiParams["parentId"] = $parentId;
-	}
-
-	public function getApiParams(){
-		return $this->apiParams;
-	}
-
-}
-
 ?>

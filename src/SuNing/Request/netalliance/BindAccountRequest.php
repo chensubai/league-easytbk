@@ -1,8 +1,8 @@
 <?php
-namespace NiuGengYun\EasyTBK\SuNing\Request\Netalliance;
+namespace LeagueAndShop\EasyTBK\SuNing\Request\Netalliance;
 
-use NiuGengYun\EasyTBK\SuNing\SuningRequest;
-use NiuGengYun\EasyTBK\SuNing\RequestCheckUtil;
+use LeagueAndShop\EasyTBK\SuNing\SuningRequest;
+use LeagueAndShop\EasyTBK\SuNing\RequestCheckUtil;
 
 /**
  * 苏宁开放平台接口 - 绑定第三方账号与苏宁账号

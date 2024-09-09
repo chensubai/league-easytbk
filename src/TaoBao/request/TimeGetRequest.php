@@ -1,8 +1,8 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\request;
+namespace LeagueAndShop\EasyTBK\TaoBao\request;
 
-use NiuGengYun\EasyTBK\TaoBao\RequestCheckUtil;
+use LeagueAndShop\EasyTBK\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.time.get request
  *

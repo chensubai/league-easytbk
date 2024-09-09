@@ -11,7 +11,7 @@
             "email": "515343908@qq.com"
         }
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.1.0",
