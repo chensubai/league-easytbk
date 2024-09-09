@@ -1,13 +1,13 @@
 <?php
 
-namespace NiuGengYun\EasyTBK;
+namespace LeagueAndShop\EasyTBK;
 
-use NiuGengYun\EasyTBK\TaoBao\Application as TaoBao;
-use NiuGengYun\EasyTBK\PinDuoDuo\Application as PinDuoDuo;
-use NiuGengYun\EasyTBK\JingDong\Application as JingDong;
-use NiuGengYun\EasyTBK\Vip\Application as Vip;
-use NiuGengYun\EasyTBK\SuNing\Application as SuNing;
-use NiuGengYun\EasyTBK\Vip\Osp\Context\InvocationContext;
+use LeagueAndShop\EasyTBK\TaoBao\Application as TaoBao;
+use LeagueAndShop\EasyTBK\PinDuoDuo\Application as PinDuoDuo;
+use LeagueAndShop\EasyTBK\JingDong\Application as JingDong;
+use LeagueAndShop\EasyTBK\Vip\Application as Vip;
+use LeagueAndShop\EasyTBK\SuNing\Application as SuNing;
+use LeagueAndShop\EasyTBK\Vip\Osp\Context\InvocationContext;
 
 /**
  * Class Factory.

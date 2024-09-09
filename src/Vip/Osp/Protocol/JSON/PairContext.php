@@ -20,10 +20,10 @@
  * @package thrift.protocol
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Protocol\JSON;
+namespace LeagueAndShop\EasyTBK\Vip\Osp\Protocol\JSON;
 
-use NiuGengYun\EasyTBK\Vip\Osp\Protocol\JSON\BaseContext;
-use NiuGengYun\EasyTBK\Vip\Osp\Protocol\JSONProtocol;
+use LeagueAndShop\EasyTBK\Vip\Osp\Protocol\JSON\BaseContext;
+use LeagueAndShop\EasyTBK\Vip\Osp\Protocol\JSONProtocol;
 
 class PairContext extends BaseContext {
     private $first_ = true;

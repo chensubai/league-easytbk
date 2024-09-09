@@ -1,31 +1,33 @@
 {
-    "name": "niugengyun/easytbk",
+    "name": "league-and-shop/easytbk",
     "type": "library",
     "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:flutter666666",
     "keywords": ["淘宝客","淘宝客SDK"],
-    "homepage": "https://github.com/niugengyun/easytbk",
+    "homepage": "https://github.com/LeagueAndShop/easytbk",
     "license": "MIT",
     "authors": [
         {
-            "name": "niugengyun",
+            "name": "subai",
             "email": "515343908@qq.com"
         }
     ],
+    "version": "1.0.0",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.1.0",
-        "illuminate/support": "~5.8|~6.0|~7.0|~8.0",
-        "graham-campbell/manager": "^2.0|^3.0|^4.0",
-        "laravel/helpers": "^1.4"
+        "illuminate/support": "~5.8|~6.0|~7.0|~8.0|^9.0|^10.0",
+        "graham-campbell/manager": "^2.0|^3.0|^4.0|^5.0",
+        "laravel/helpers": "^1.4|^1.5"
     },
     "autoload": {
         "psr-4": {
-            "NiuGengYun\\EasyTBK\\": "src/"
+            "LeagueAndShop\\EasyTBK\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NiuGengYun\\EasyTBK\\ServiceProvider"
+                "LeagueAndShop\\EasyTBK\\ServiceProvider"
             ]
         }
     }

@@ -20,7 +20,7 @@
  * @package thrift.protocol
  */
 
-namespace NiuGengYun\EasyTBK\Vip\Osp\Protocol\JSON;
+namespace LeagueAndShop\EasyTBK\Vip\Osp\Protocol\JSON;
 
 class LookaheadReader
 {

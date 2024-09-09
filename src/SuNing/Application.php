@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\SuNing;
+namespace LeagueAndShop\EasyTBK\SuNing;
 
 class Application
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao\Domain;
+namespace LeagueAndShop\EasyTBK\TaoBao\Domain;
 
 /**
  * 商品信息-商品关联词

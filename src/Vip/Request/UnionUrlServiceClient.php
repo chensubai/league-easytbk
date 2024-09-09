@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace LeagueAndShop\EasyTBK\Vip\Request;
 
 class UnionUrlServiceClient{
 
@@ -18,8 +18,8 @@ class UnionUrlServiceClient{
 
 	private static function regis(){
 
-		$path =  \NiuGengYun\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath ();
-		$nsLoader = new \NiuGengYun\EasyTBK\Vip\Osp\ClassLoader\ClassLoader ();
+		$path =  \LeagueAndShop\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath ();
+		$nsLoader = new \LeagueAndShop\EasyTBK\Vip\Osp\ClassLoader\ClassLoader ();
 		$nsLoader->registerNamespace ( 'Thrift', $path );
 		$nsLoader->registerNamespace ( 'Osp', $path );
 		$nsLoader->registerNamespace ( 'com', $path );
@@ -36,7 +36,7 @@ class UnionUrlServiceClient{
 		}
 
 
-		$ctx =  \NiuGengYun\EasyTBK\Vip\Osp\Context\InvocationContextFactory::getInstance ();
+		$ctx =  \LeagueAndShop\EasyTBK\Vip\Osp\Context\InvocationContextFactory::getInstance ();
 		$ip = UnionUrlServiceClient::$DEFAULT_PROXY_IP;
 		$port = UnionUrlServiceClient::$DEFAULT_PROXY_PORT;
 		try{
@@ -68,7 +68,7 @@ class UnionUrlServiceClient{
 
 		//$ctx->setProtocol ( \Osp\Protocol\OspProtocol::$Binary );
 
-		return new \NiuGengYun\EasyTBK\Vip\Request\UnionUrlServiceHelper();
+		return new \LeagueAndShop\EasyTBK\Vip\Request\UnionUrlServiceHelper();
 	}
 
 }

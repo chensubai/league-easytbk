@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace LeagueAndShop\EasyTBK\Vip\Request;
 
 class VipLinkCheckReq {
 

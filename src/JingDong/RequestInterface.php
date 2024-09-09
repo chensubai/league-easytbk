@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: niugengyun
+ * User: LeagueAndShop
  * Date: 2019/1/8
  * Time: 15:54
  */
 
-namespace NiuGengYun\EasyTBK\JingDong;
+namespace LeagueAndShop\EasyTBK\JingDong;
 
 
 interface RequestInterface

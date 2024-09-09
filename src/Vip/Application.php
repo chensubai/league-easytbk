@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\Vip;
+namespace LeagueAndShop\EasyTBK\Vip;
 
 
 class Application

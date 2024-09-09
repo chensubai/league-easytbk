@@ -8,7 +8,7 @@
 *
 */
 
-namespace NiuGengYun\EasyTBK\Vip\Request;
+namespace LeagueAndShop\EasyTBK\Vip\Request;
 
 class UnionPidServiceClient{
 
@@ -18,8 +18,8 @@ class UnionPidServiceClient{
 
 	private static function regis(){
 
-		$path =  \NiuGengYun\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath ();
-		$nsLoader = new \NiuGengYun\EasyTBK\Vip\Osp\ClassLoader\ClassLoader ();
+		$path =  \LeagueAndShop\EasyTBK\Vip\Osp\Util\PathUtil::getRootPath ();
+		$nsLoader = new \LeagueAndShop\EasyTBK\Vip\Osp\ClassLoader\ClassLoader ();
 		$nsLoader->registerNamespace ( 'Thrift', $path );
 		$nsLoader->registerNamespace ( 'Osp', $path );
 		$nsLoader->registerNamespace ( 'com', $path );
@@ -36,7 +36,7 @@ class UnionPidServiceClient{
 		}
 
 
-		$ctx =  \NiuGengYun\EasyTBK\Vip\Osp\Context\InvocationContextFactory::getInstance ();
+		$ctx =  \LeagueAndShop\EasyTBK\Vip\Osp\Context\InvocationContextFactory::getInstance ();
 		$ip = UnionPidServiceClient::$DEFAULT_PROXY_IP;
 		$port = UnionPidServiceClient::$DEFAULT_PROXY_PORT;
 		try{
@@ -68,7 +68,7 @@ class UnionPidServiceClient{
 
 		//$ctx->setProtocol ( \Osp\Protocol\OspProtocol::$Binary );
 
-		return new \NiuGengYun\EasyTBK\Vip\Request\UnionPidServiceHelper();
+		return new \LeagueAndShop\EasyTBK\Vip\Request\UnionPidServiceHelper();
 	}
 
 }

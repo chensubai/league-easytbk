@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao;
+namespace LeagueAndShop\EasyTBK\TaoBao;
 
 /**
  * API入参静态检查类

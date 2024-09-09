@@ -1,13 +1,13 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\JingDong\Request;
+namespace LeagueAndShop\EasyTBK\JingDong\Request;
 
-use NiuGengYun\EasyTBK\JingDong\RequestInterface;
+use LeagueAndShop\EasyTBK\JingDong\RequestInterface;
 
 
 /**
  * Class JdUnionPromotionByunionidGetRequest
- * @package NiuGengYun\EasyTBK\JingDong\Request
+ * @package LeagueAndShop\EasyTBK\JingDong\Request
  */
 class JdUnionPromotionByunionidGetRequest implements RequestInterface
 {

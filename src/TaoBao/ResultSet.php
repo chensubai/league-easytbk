@@ -1,6 +1,6 @@
 <?php
 
-namespace NiuGengYun\EasyTBK\TaoBao;
+namespace LeagueAndShop\EasyTBK\TaoBao;
 
 /**
  * 返回的默认类

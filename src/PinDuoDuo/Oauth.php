@@ -1,5 +1,5 @@
 <?php
-namespace NiuGengYun\EasyTBK\PinDuoDuo;
+namespace LeagueAndShop\EasyTBK\PinDuoDuo;
 
 
 class Oauth

@@ -6,9 +6,9 @@
  * Time: 12:12
  */
 
-namespace NiuGengYun\EasyTBK\PinDuoDuo\Request;
+namespace LeagueAndShop\EasyTBK\PinDuoDuo\Request;
 
-use NiuGengYun\EasyTBK\PinDuoDuo\RequestInterface;
+use LeagueAndShop\EasyTBK\PinDuoDuo\RequestInterface;
 
 
 class DdkOrderListRangeGetRequest implements RequestInterface
