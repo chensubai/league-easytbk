@@ -1,14 +1,14 @@
 {
     "name": "league-and-shop/easytbk",
     "type": "library",
-    "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:flutter666666",
+    "description": "淘客六合一SDK，支持淘宝联盟、京东联盟、多多进宝、唯品会、苏宁、蘑菇街. 微信:cjj1369",
     "keywords": ["淘宝客","淘宝客SDK"],
-    "homepage": "https://github.com/LeagueAndShop/easytbk",
+    "homepage": "https://github.com/chensubai/league-easytbk",
     "license": "MIT",
     "authors": [
         {
             "name": "subai",
-            "email": "515343908@qq.com"
+            "email": "18447050535@163.com"
         }
     ],
     "version": "1.0.4",
