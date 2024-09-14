@@ -4,7 +4,7 @@ namespace LeagueAndShop\EasyTBK\SuNing\Request\Netalliance;
 
 use LeagueAndShop\EasyTBK\SuNing\SuningRequest;
 
-class SelectreCommendCommodityQueryRequest  extends SuningRequest
+class SelectrecommendcommodityQueryRequest  extends SuningRequest
 {
     /**
      *默认为1,,营销id。1-小编推荐；2-实时热销榜；3-当日热推榜；4-高佣爆款榜；5-团长招商榜；6-9块9专区

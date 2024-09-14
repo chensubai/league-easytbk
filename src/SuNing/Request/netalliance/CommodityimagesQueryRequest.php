@@ -4,7 +4,7 @@ namespace LeagueAndShop\EasyTBK\SuNing\Request\Netalliance;
 
 use LeagueAndShop\EasyTBK\SuNing\SuningRequest;
 
-class CommodityImagesQueryRequest  extends SuningRequest
+class CommodityimagesQueryRequest  extends SuningRequest
 {
     /**
      * 商品编码
